@@ -41,9 +41,13 @@ let s = "{()[()]}";
 
 
 if (IsBalancedEnclosure(s))
+{
     console.log("True");
+}
 else
+{
     console.log("False");
+}
 
 // Output : True
 
@@ -53,8 +57,12 @@ else
 
 
 // if (IsBalancedEnclosure(s))
+// {
 //     console.log("True");
+// }
 // else
+// {
 //     console.log("False");
+// }
 
 // Ouput : False
